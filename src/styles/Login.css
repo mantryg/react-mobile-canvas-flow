@@ -1,0 +1,111 @@
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 40px 20px 0;
+  position: relative;
+}
+
+.logo-container {
+  margin-bottom: 30px;
+}
+
+.hospital-logo {
+  max-width: 200px;
+  height: auto;
+}
+
+.building-image-container {
+  width: 100%;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.hospital-building {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.phone-input-container {
+  display: flex;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.country-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  background-color: #f9f9f9;
+  border-right: 1px solid #ddd;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.phone-input {
+  flex: 1;
+  border: none;
+  padding: 0 15px;
+  font-size: 16px;
+  outline: none;
+}
+
+.action-text {
+  width: 100%;
+  max-width: 320px;
+  text-align: right;
+  color: #0066b3;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.otp-button, .verify-button {
+  width: 100%;
+  max-width: 200px;
+  height: 45px;
+  background-color: #0066b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.otp-button:hover, .verify-button:hover {
+  background-color: #005299;
+}
+
+.otp-input-container {
+  width: 100%;
+  max-width: 320px;
+  margin-bottom: 20px;
+}
+
+.otp-input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0 15px;
+  font-size: 16px;
+  outline: none;
+}
