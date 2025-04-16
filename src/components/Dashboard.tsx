@@ -1,7 +1,6 @@
 
 import { useState } from 'react';
 import '../styles/Dashboard.css';
-import hospitalLogo from '/lovable-uploads/1efe722b-5880-42d9-a14f-86ecac034318.png';
 import AppointmentList from './AppointmentList';
 import DateFilter from './DateFilter';
 import OTFilter from './OTFilter';
@@ -37,7 +36,7 @@ const Dashboard = () => {
   return (
     <div className="dashboard-container">
       <div className="header">
-        <img src={hospitalLogo} alt="Sahaj Hospital Logo" className="dashboard-logo" />
+        <div className="dashboard-logo">Sahaj Hospital</div>
       </div>
 
       <div className="filters-container">

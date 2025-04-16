@@ -1,8 +1,6 @@
 
 import { useState } from 'react';
 import '../styles/Login.css';
-import hospitalLogo from '/lovable-uploads/1efe722b-5880-42d9-a14f-86ecac034318.png';
-import hospitalBuilding from '/lovable-uploads/d2fa83f5-fb49-4d66-8d83-ff4798105eaa.png';
 import Navigation from './Navigation';
 
 interface LoginProps {
@@ -33,11 +31,11 @@ const Login = ({ onLogin }: LoginProps) => {
   return (
     <div className="login-container">
       <div className="logo-container">
-        <img src={hospitalLogo} alt="Sahaj Hospital Logo" className="hospital-logo" />
+        <div className="hospital-logo">Sahaj Hospital</div>
       </div>
       
       <div className="building-image-container">
-        <img src={hospitalBuilding} alt="Sahaj Hospital Building" className="hospital-building" />
+        <div className="hospital-building">Hospital Building</div>
       </div>
       
       <div className="login-form">
